@@ -1,0 +1,13 @@
+{
+  "name": "ptp-servo-holdover-state-validator",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "验证 PTP 主从切换、伺服漂移补偿与 holdover 状态机（不处理真实 PTP 报文）",
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}
